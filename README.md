@@ -1,3 +1,4 @@
-.rc
-===
-.rc files I usually use
+rc
+==
+
+This repository contains .rc files I use on *ix.

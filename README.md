@@ -1,3 +1,3 @@
 .rc
 ===
-Contains .rc files I usually use
+.rc files I usually use

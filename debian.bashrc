@@ -58,9 +58,9 @@ fi
 
 if [ "$color_prompt" = yes ]; then
 	if [[ $UID == 0 ]]; then
-		PS1="${debian_chroot:+($debian_chroot)}\[\e[1;31;40m\]\u\[\033[00m\]@\[\e[36;40m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\e[0m\]\$ "
+		PS1="${debian_chroot:+($debian_chroot)}\[\e[1;31;40m\]\u\[\033[00m\]@\[\e[36;40m\]\h\[\033[00m\]:\[\033[01;36m\]\w\[\e[0m\]\$ "
 	else
-		PS1="${debina_chroot:+($debian_chroot)}\[\e[1;32;40m\]\u\[\033[00m\]@\[\e[36;40m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\e[0m\]\$ "
+		PS1="${debina_chroot:+($debian_chroot)}\[\e[1;32;40m\]\u\[\033[00m\]@\[\e[36;40m\]\h\[\033[00m\]:\[\033[01;36m\]\w\[\e[0m\]\$ "
 	fi	
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[1;36m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else

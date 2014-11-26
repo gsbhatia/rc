@@ -1,3 +1,4 @@
+"echo "This file is common.vimrc"
 syntax on
 set nocompatible
 set ruler

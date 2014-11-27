@@ -126,7 +126,8 @@ fu! SourceVimFile(file_name)
 	endif
 endfunction
 
-call SourceVimFile("/usr/share/vim/google/google.vim")
-
 call SourceVimFile("$VIMRUNTIME/mswin.vim")
 behave mswin
+
+"call SourceVimFile("/usr/share/vim/google/google.vim")
+

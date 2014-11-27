@@ -5,6 +5,9 @@ endif
 
 " display settings
 set background=dark     " enable for dark terminals
+if has('gui_running')
+    colorscheme torte
+endif
 set nowrap              " dont wrap lines
 set scrolloff=2         " 2 lines above/below cursor when scrolling
 set nonumber              " show line numbers

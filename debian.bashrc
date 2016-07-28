@@ -27,3 +27,5 @@ fi
 unset color_prompt force_color_prompt
 
 export EDITOR='gvim -f'
+
+source /google/data/ro/teams/hi/command_interceptor.sh

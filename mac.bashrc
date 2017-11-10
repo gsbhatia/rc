@@ -9,3 +9,5 @@ fi
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
+
+export JAVA_HOME=$(/usr/libexec/java_home)

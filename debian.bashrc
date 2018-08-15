@@ -108,3 +108,10 @@ export REFASTER=java/com/google/devtools/javatools/refactory/refaster
 if [ -n "$DISPLAY" ] ; then export G4MULTIDIFF=1 ; fi
 export P4DIFF='bash -c "meld \${@/#:/--diff}" padding-to-occupy-argv0'
 export P4MERGE='bash -c "chmod u+w \$1 ; meld \$2 \$1 \$3 ; cp \$1 \$4" padding-to-occupy-argv0'
+
+# Set the Hi status to be displayed as part of the prompt. #!>>HI<<!#
+PS1="\[\${__hi_prompt_color}\]\${__hi_prompt_text}\[${__hi_NOCOLOR}\]${PS1}" #!>>HI<<!#
+# Set the default values for the text of the hi prompt. Change these if you like. #!>>HI<<!#
+__hi_on_prompt="[hi on] " #!>>HI<<!#
+__hi_off_prompt="[hi off] " #!>>HI<<!#
+

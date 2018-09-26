@@ -1,7 +1,0 @@
-shell -$SHELL
-startup_message off
-defscrollback 10000
-hardstatus alwayslastline '%{= wk}%?%-Lw%?%{r}(%{k}%n*%f%t%?(%u)%?%{r})%{k}%?%+Lw%?%?%= %{= KG}%D, %d/%M/%Y%{-} %C:%s %A'
-activity ''
-termcapinfo xterm* 'hs:ts=\E]2;:fs=\007:ds=\E]2;screen\007'
-shelltitle "$ |${HOSTNAME}"

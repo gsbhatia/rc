@@ -128,6 +128,3 @@ endfunction
 
 call SourceVimFile("$VIMRUNTIME/mswin.vim")
 behave mswin
-
-"call SourceVimFile("/usr/share/vim/google/google.vim")
-
